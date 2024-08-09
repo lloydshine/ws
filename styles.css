@@ -110,3 +110,17 @@ label {
 .alert-error {
   background-color: rgb(160, 19, 19);
 }
+
+@media only screen and (max-width: 888px) {
+  html {
+    font-size: 10px;
+  }
+
+  .form-container {
+    flex-direction: column;
+  }
+
+  #form {
+    padding: 5rem;
+  }
+}
